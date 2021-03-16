@@ -39,11 +39,11 @@ movie.loop = true;
 
 let videoTexture = new THREE.VideoTexture(videoTest);
 console.log(videoTexture);
-const geo = new THREE.SphereGeometry(3, 32, 32);
+const geo = new THREE.SphereGeometry(2.5, 32, 32);
 let cubeMat = new THREE.MeshBasicMaterial({ map: videoTexture });
 let cube = new THREE.Mesh(geo, cubeMat);
 
-cube.position.set(2, 0, 0);
+cube.position.set(0, 1, 0);
 scene2.add(cube);
 
 const renderer = new CSS3DRenderer();
@@ -69,7 +69,7 @@ el.addEventListener("click", (e) => {
 });
 
 const obj = new CSS3DObject(el);
-obj.position.set(0, -380, 0);
+obj.position.set(0, -350, 0);
 // obj.rotation.y += Math.PI / 4;
 scene.add(obj);
 
