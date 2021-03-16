@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/takanobu68/threeSection/issues"
   },
-  "homepage": "https://github.com/takanobu68/threeSection#readme"
+  "homepage": "https://github.com/takanobu68/threeSection#readme",
+  "dependencies": {
+    "three": "^0.126.1"
+  }
 }
