@@ -38,8 +38,8 @@ movie.src = "../video02.mp4";
 movie.loop = true;
 
 let videoTexture = new THREE.VideoTexture(videoTest);
-console.log(videoTexture);
-const geo = new THREE.SphereGeometry(2.5, 32, 32);
+// const geo = new THREE.SphereGeometry(2.5, 32, 32);
+const geo = new THREE.BoxGeometry(10, 4, 4);
 let cubeMat = new THREE.MeshBasicMaterial({ map: videoTexture });
 let cube = new THREE.Mesh(geo, cubeMat);
 
