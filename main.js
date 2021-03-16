@@ -69,8 +69,8 @@ el.addEventListener("click", (e) => {
 });
 
 const obj = new CSS3DObject(el);
-obj.position.set(-600, 0, 0);
-obj.rotation.y += Math.PI / 4;
+obj.position.set(0, -380, 0);
+// obj.rotation.y += Math.PI / 4;
 scene.add(obj);
 
 const controls = new OrbitControls(camera, renderer.domElement);
