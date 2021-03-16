@@ -64,8 +64,11 @@ el.innerHTML = `
 </div>`;
 
 el.addEventListener("click", (e) => {
+  console.log(cube.position);
+  console.log(e.position);
   videoTest.src = e.target.src;
   videoTest.play();
+  console.log(el.children);
 });
 
 const obj = new CSS3DObject(el);
