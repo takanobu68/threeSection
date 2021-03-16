@@ -16,7 +16,8 @@ body {
 }
 
 .video-box {
-  width: 80%;
+  /* width: 1536px; */
+  width: 100vw;
   /* height: 700px; */
 }
 
